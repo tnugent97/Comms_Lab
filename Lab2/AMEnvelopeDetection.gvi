@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="52E3F4E764FB3CBBB4CE7C2A0CA2776B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4A79D19ADB764D8AC692E7B1DBA08300" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
@@ -22,32 +22,32 @@
 			</IconPanel>
 		</Icon>
 		<ConnectorPane Height="110" Id="10" ListViewHeight="250" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
-			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="1451" />
-			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="1456" />
-			<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 65" Parameter="1461" />
-			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 80" Parameter="1466" />
+			<ConnectorPaneTerminal ListViewHotspot="0 230" Parameter="1451" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 35" Parameter="1456" />
+			<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 50" Parameter="1461" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 65" Parameter="1466" />
 			<ConnectorPaneTerminal Hotspot="15 0" />
 			<ConnectorPaneTerminal Hotspot="25 0" />
-			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 185" Parameter="138" />
-			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 200" Parameter="1428" />
-			<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 215" Parameter="1516" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 170" Parameter="138" />
+			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 185" Parameter="1428" />
+			<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 200" Parameter="1516" />
 			<ConnectorPaneTerminal Hotspot="40 35" />
 			<ConnectorPaneTerminal Hotspot="15 110" />
 			<ConnectorPaneTerminal Hotspot="25 110" />
 			<ConnectorPaneTerminal Hotspot="40 45" />
-			<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 95" Parameter="1471" />
+			<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 80" Parameter="1471" />
 			<ConnectorPaneTerminal Hotspot="40 55" />
-			<ConnectorPaneTerminal Hotspot="0 55" ListViewHotspot="0 110" Parameter="1476" />
+			<ConnectorPaneTerminal Hotspot="0 55" ListViewHotspot="0 95" Parameter="1476" />
 			<ConnectorPaneTerminal Hotspot="40 65" />
-			<ConnectorPaneTerminal Hotspot="0 65" ListViewHotspot="0 140" Parameter="1486" />
+			<ConnectorPaneTerminal Hotspot="0 65" ListViewHotspot="0 125" Parameter="1486" />
 			<ConnectorPaneTerminal Hotspot="40 75" />
-			<ConnectorPaneTerminal Hotspot="0 75" ListViewHotspot="0 125" Parameter="1481" />
+			<ConnectorPaneTerminal Hotspot="0 75" ListViewHotspot="0 110" Parameter="1481" />
 			<ConnectorPaneTerminal Hotspot="40 85" />
-			<ConnectorPaneTerminal Hotspot="0 85" ListViewHotspot="0 155" Parameter="98" />
+			<ConnectorPaneTerminal Hotspot="0 85" ListViewHotspot="0 140" Parameter="98" />
 			<ConnectorPaneTerminal Hotspot="40 95" />
-			<ConnectorPaneTerminal Hotspot="0 95" ListViewHotspot="0 170" Parameter="1184" />
+			<ConnectorPaneTerminal Hotspot="0 95" ListViewHotspot="0 155" Parameter="1184" />
 			<ConnectorPaneTerminal Hotspot="40 105" />
-			<ConnectorPaneTerminal Hotspot="0 105" ListViewHotspot="0 230" Parameter="1500" />
+			<ConnectorPaneTerminal Hotspot="0 105" ListViewHotspot="0 215" Parameter="1500" />
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="11" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="12" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" />
@@ -70,19 +70,19 @@
 						<Parameter Id="R4" Desc="AM_PSD" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="Double" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Double" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Double" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Double" Direction="Input" Hotspot="0 55" Id="L5" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Double" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Int32" Direction="Input" Hotspot="0 75" Id="L7" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Double" Direction="Input" Hotspot="0 65" Id="L6" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@a8106957b9c74a119f0e3cfccf03e781" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@a8106957b9c74a119f0e3cfccf03e781" Direction="Output" Hotspot="40 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Input" Hotspot="0 45" Id="L4" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Input" Hotspot="0 55" Id="L5" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Input" Hotspot="0 35" Id="L3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 75" Id="L7" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Input" Hotspot="0 65" Id="L6" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 25" Id="R2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@a8106957b9c74a119f0e3cfccf03e781" Direction="Output" Hotspot="40 35" Id="R3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@a8106957b9c74a119f0e3cfccf03e781" Direction="Output" Hotspot="40 45" Id="R4" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<WaveformMultiply Bounds="370 130 30 40" Id="17" />
 			<Literal Bounds="265 195 39.5 15" DataType="Double" Facade="Pi" Id="18" xmlns="http://www.ni.com/MocCommon">
@@ -178,7 +178,7 @@
 				<PropertyItemTerminal DataType="Double[]" Hotspot="88 15" Id="c0t0v" Path="Y" Usage="Optional" />
 				<PropertyItemTerminal DataType="Timestamp" Hotspot="88 30" Id="c1t0v" Path="t0" Usage="Optional" />
 				<PropertyItemTerminal DataType="Double" Hotspot="88 45" Id="c2t0v" Path="dt" Usage="Optional" />
-				<PropertyItemTerminal DataType="@9d7f2fc02608431b945aa1b8ba93040a" Hotspot="88 60" Id="c3t0v" Path="attributes" Usage="Optional" />
+				<PropertyItemTerminal DataType="@ef65a35b070242d1860b9d1c7be204f5" Hotspot="88 60" Id="c3t0v" Path="attributes" Usage="Optional" />
 			</PropertyNode>
 			<Wire Id="1167" Joints="N(17:o) N(1165:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="1171" Joints="N(1165:c0t0v) h(37) B(1) N(1176:array) B(1) v(100) h(-452) v(145) N(67:o0)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -303,7 +303,7 @@
 				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="141" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]152" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 0.05, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="152" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" />
 				</Axis>
-				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="142" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]153" Orientation="[SMOrientation]Vertical" Range="[IRange]-1.6, 1.6, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="142" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]153" Orientation="[SMOrientation]Vertical" Range="[IRange]-2, 2, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="153" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" />
 				</Axis>
 				<Plot HorizontalScale="[UIModel]141" Id="143" Label="[string]Plot" VerticalScale="[UIModel]142" Visibility="[SMVisibility]Visible" />
@@ -1315,7 +1315,7 @@
 				<Plot HorizontalScale="[UIModel]141" Id="1159" Label="[string]Plot 999" VerticalScale="[UIModel]142" Visibility="[SMVisibility]Visible" />
 				<Plot HorizontalScale="[UIModel]141" Id="1160" Label="[string]Plot 1000" VerticalScale="[UIModel]142" Visibility="[SMVisibility]Visible" />
 			</Graph>
-			<PlotLegend Graph="[UIModel]140" Height="[float]28" Id="154" Left="[float]711" Top="[float]52" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<PlotLegend Graph="[UIModel]140" Height="[float]26" Id="154" Left="[float]711" Top="[float]52" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]140" Height="[float]102" Id="155" Left="[float]109" MinHeight="[float]80" Top="[float]481" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<ScaleLegend Graph="[UIModel]140" Height="[float]50" Id="156" Left="[float]711" MinHeight="[float]50" Top="[float]350" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<GraphTools Graph="[UIModel]140" Height="[float]22" Id="157" Left="[float]109" Top="[float]459" Visible="[bool]False" Width="[float]148" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -1341,7 +1341,7 @@
 				<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="1440" LineStroke="[SMSolidColorBrush]#ff7f7f7f" PointShape="[PointShape]Diamond" />
 				<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="1441" LineStroke="[SMSolidColorBrush]#ff3c0726" PointShape="[PointShape]Cross" />
 			</Graph>
-			<PlotLegend Graph="[UIModel]1430" Height="[float]28" Id="1444" Left="[float]1307" Top="[float]52" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<PlotLegend Graph="[UIModel]1430" Height="[float]26" Id="1444" Left="[float]1307" Top="[float]52" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]1430" Height="[float]102" Id="1445" Left="[float]705" MinHeight="[float]80" Top="[float]481" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<ScaleLegend Graph="[UIModel]1430" Height="[float]50" Id="1446" Left="[float]1307" MinHeight="[float]50" Top="[float]350" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<GraphTools Graph="[UIModel]1430" Height="[float]22" Id="1447" Left="[float]705" Top="[float]459" Visible="[bool]False" Width="[float]148" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -1582,7 +1582,7 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9d7f2fc02608431b945aa1b8ba93040a">
+		<p.TypeReference TypeId="ef65a35b070242d1860b9d1c7be204f5">
 			<Composite Id="1" Name="Variant" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="db12ba8c4220471a80e41a527757cffd">
