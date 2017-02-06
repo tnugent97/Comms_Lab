@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="CC21787DB34B3B26FC9B35D1370899C5" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A13DB7541DCF9A8B72DEA43D51F9B2DC" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
@@ -198,7 +198,7 @@
 				<LoopTunnel Bounds="-4 60 13 10" Docking="Left" Id="39" Terminals="o0=55, i0=47" />
 				<LoopTunnel Bounds="231 20 13 10" Docking="Right" Id="40" Terminals="o0=56, i0=48" />
 				<LoopTunnel Bounds="231 60 13 10" Docking="Right" Id="41" Terminals="o0=57, i0=49" />
-				<LoopTunnel Bounds="80 -4 10 13" Docking="Top" Id="42" Terminals="o0=135, i0=53" />
+				<LoopTunnel Bounds="80 -4 10 13" Docking="Top" Id="42" Terminals="o0=369, i0=53" />
 			</WhileLoop>
 			<Wire Id="54" Joints="N(24:R0) h(10) v(15) N(38:o0)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="55" Joints="N(24:R4) h(25) v(15) N(39:o0)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -398,11 +398,6 @@
 				<Terminal DataType="Double[]" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="103" Joints="N(91:o0) N(102:L0)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Literal Bounds="820 200 39.5 16" DataType="Double" Facade="NationalInstruments.MocCommon.SourceModel.INumericBehavior" Id="104" Label="192" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>0x0</p.Data>
-				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
-			</Literal>
-			<Wire Id="105" Joints="N(104:Out) N(124:y)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="106" Joints="N(102:R0) h(5) v(70) N(107:L0)" xmlns="http://www.ni.com/PlatformFramework" />
 			<MethodCall Bounds="550 160 50 50" DomainName="NI.MocCommon" Id="107" Target="NI:Analysis:Resampling:Upsample\ \(DBL\)\.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
@@ -500,9 +495,7 @@
 				<Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Int32" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<RealAndImaginaryToComplex Bounds="870 185 30 30" Id="124" />
 			<Wire Id="125" Joints="N(120:R0) N(123:L1)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="126" Joints="N(123:R0) h(10) v(45) N(124:x)" xmlns="http://www.ni.com/PlatformFramework" />
 			<MethodCall Bounds="920 115 40 40" DomainName="NI.MocCommon" Id="127" Target="Insert\ Pilots\.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
@@ -513,7 +506,6 @@
 				<Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<Wire Id="128" Joints="N(124:x + iy) h(15) v(-70) N(127:L1)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="129" Joints="N(127:R1) N(130:L0)" xmlns="http://www.ni.com/PlatformFramework" />
 			<MethodCall Bounds="975 125 50 50" DomainName="NI.MocCommon" Id="130" Target="AddFrameHeader\ \(complex\)\.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
@@ -525,13 +517,11 @@
 				<Terminal DataType="ComplexDouble[]" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<DataAccessor Bounds="1130 125 40 15" DataItem="217" Id="131" Label="197" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="Wfm(ComplexDouble)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="1020 35 40 15" DataItem="217" Id="131" Label="197" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Wfm(Double)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<BuildWaveformNode Bounds="1060 125 40 40" Id="132" />
+			<BuildWaveformNode Bounds="930 35 40 40" Id="132" />
 			<Reciprocal Bounds="780 270 30 30" Id="133" />
-			<Wire Id="135" Joints="N(130:R0) h(5) B(1) N(132:Y) B(1) v(100) B(3) N(17:c1t0v) B(3) v(70) h(-345) v(140) h(-270) N(42:o0)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="136" Joints="N(133:1/x) h(240) v(-70) B(2) N(17:c0t0v) B(2) v(-75) N(132:dt)" xmlns="http://www.ni.com/PlatformFramework" />
 			<MethodCall Bounds="1155 365 40 40" DomainName="NI.MocCommon" Id="137" Target="FrameSync\.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
@@ -795,9 +785,6 @@
 			<NodeLabel AttachedTo="85" Bounds="-74 115 49 14" Id="191" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>total bits</p.Text>
 			</NodeLabel>
-			<NodeLabel AttachedTo="104" Bounds="820 200 0 0" Id="192" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>y</p.Text>
-			</NodeLabel>
 			<NodeLabel AttachedTo="109" Bounds="315 255 70 14" Id="193" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Symbol Rate</p.Text>
 			</NodeLabel>
@@ -810,7 +797,7 @@
 			<NodeLabel AttachedTo="117" Bounds="485 65 0 0" Id="196" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>pulse shaping filter</p.Text>
 			</NodeLabel>
-			<NodeLabel AttachedTo="131" Bounds="1175 125 117 14" Id="197" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="131" Bounds="1065 35 117 14" Id="197" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Baseband_Waveform</p.Text>
 			</NodeLabel>
 			<NodeLabel AttachedTo="143" Bounds="1230 315 0 0" Id="198" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -857,6 +844,11 @@
 			<IsGreaterThan0 Bounds="1170 575 30 30" Id="353" />
 			<Wire Id="354" Joints="N(338:x) h(25) v(-15) h(-555) v(65) N(149:L0)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="357" Joints="N(77:R1) h(15) v(60) N(137:L1)" xmlns="http://www.ni.com/PlatformFramework" />
+			<ToDoublePrecisionComplex Bounds="865 125 30 10" Id="360" />
+			<Wire Id="362" Joints="N(360:double precision complex) N(127:L1)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="363" Joints="N(133:1/x) h(100) B(1) h(140) v(-70) N(17:c0t0v) B(1) v(-235) N(132:dt)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="364" Joints="N(123:R0) h(10) B(1) v(-15) B(2) N(360:number) B(2) v(-90) N(132:Y) B(1) v(85) N(17:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="369" Joints="N(130:R0) h(5) v(170) h(-345) v(140) h(-270) N(42:o0)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<NumericText BaseName="[string]Numeric" Height="[float]22" Id="221" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]222" Left="[float]991" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]242" Value="{DataItemBinding Id=205}" ValueFormatter="[string]LVSI:G6" ValueType="[Type]Double" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -968,7 +960,7 @@
 		<DataItem AdaptToDiagramType="True" DataType="Double" Id="216" Name="upsampling factor L" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x0</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="Wfm(ComplexDouble)" Id="217" Name="Baseband_Waveform" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" DataType="Wfm(Double)" Id="217" Name="Baseband_Waveform" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>
 				<Waveform>
 					<Timestamp>60052752000;0;Utc</Timestamp>
